@@ -1,0 +1,28 @@
+# 敏感配置文件
+.env
+.env.local
+config.ini
+secrets.json
+
+# 日志文件
+logs/
+*.log
+
+# 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 个人数据
+data/
+storage/
+
+# IDE
+.vscode/
+.idea/
+
+# 虚拟环境
+venv/
+env/
+.venv/ 

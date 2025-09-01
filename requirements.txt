@@ -1,0 +1,30 @@
+# 项目依赖列表
+
+# 核心包
+autogen-core>=0.7.4
+autogen-agentchat>=0.7.4
+autogen-ext>=0.7.4
+
+# 基础依赖
+pydantic>=2.10.0        # 数据验证
+pyyaml>=6.0.2           # YAML配置文件解析
+python-dotenv>=1.0.0    # 环境变量加载
+requests>=2.31.0        # HTTP请求
+aiohttp>=3.9.0          # 异步HTTP请求
+typing-extensions>=4.0.0 # 类型扩展
+logging                 # 日志功能(标准库)
+json                    # JSON处理(标准库)
+os                      # 操作系统接口(标准库)
+re                      # 正则表达式(标准库)
+sys                     # 系统相关功能(标准库)
+abc                     # 抽象基类(标准库)
+concurrent.futures      # 并发执行(标准库)
+
+# 可选依赖
+beautifulsoup4>=4.12.0  # 网页解析(用于web_tools)
+lxml>=4.9.0             # XML处理(用于web_tools)
+tqdm>=4.66.0            # 进度条显示
+numpy>=1.24.0           # 数学计算
+pandas>=2.0.0           # 数据分析
+scikit-learn>=1.3.0     # 机器学习算法
+matplotlib>=3.7.0       # 数据可视化
